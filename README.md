@@ -53,7 +53,6 @@ The project is organized as follows:
 Interactive_Periodic_Table/
 ├── Data.py            # Contains all element data in dictionary format
 ├── Interactive_Periodic_Table.py  # Main script to run the application
-├── requirements.txt   # Required dependencies
 └── README.md          # Documentation
 ```
 
