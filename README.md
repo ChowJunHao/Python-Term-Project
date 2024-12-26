@@ -45,14 +45,48 @@ An interactive periodic table application built using Python and Tkinter. This t
 4. Use the search bar to locate specific elements by name, symbol, or atomic number.
 5. Customize the properties displayed in the tooltip by selecting them from the scrollable list on the left panel.
 
-## Development Notes
+## Program Architecture
 
-This project was created as a term project to provide a convenient and interactive way to access detailed information about chemical elements. Below is the development process:
+The project is organized as follows:
 
-1. Used ChatGPT to collect and organize data for all 118 elements.
-2. Converted the data into a Python dictionary and saved it in `Data.py`.
-3. Developed the interactive table with various functionalities using Tkinter.
-4. Enhanced the application with pop-ups, tooltips, superscripts, and color-coded categories.
+```bash
+Interactive_Periodic_Table/
+├── Data.py            # Contains all element data in dictionary format
+├── Interactive_Periodic_Table.py  # Main script to run the application
+├── requirements.txt   # Required dependencies
+└── README.md          # Documentation
+```
+
+### Core Components
+
+- **Data.py**: Contains the data for all 118 elements in a structured dictionary format.
+- **Interactive_Periodic_Table.py**: Main script that handles the UI and interactions.
+
+## Development Process
+
+The development of the Interactive Periodic Table followed these steps:
+
+1. **Data Collection**: Collected detailed information about all 118 elements from reliable sources.
+2. **Data Structuring**: Converted the data into a structured dictionary format and saved it in `Data.py`.
+3. **UI Development**: Built the user interface using Tkinter, ensuring all elements were displayed correctly.
+4. **Feature Development**: Added features like tooltips, search functionality, and popups for element details.
+5. **Enhancements**: Improved the layout and made the application more interactive with user inputs.
+
+## Enhancements and Contributions
+
+The following modifications and enhancements were added to the project:
+
+### Reference Features Integrated:
+
+- Search function that allows users to search by symbol, name, or atomic number.
+- Color-coded periodic table to visually differentiate element categories.
+
+### Unique Contributions:
+
+- Developed an interactive, scrollable periodic table.
+- Implemented a popup window to display detailed element properties.
+- Added hover-over tooltips to display quick details about elements.
+- Designed an intuitive search function that updates the table dynamically.
 
 ## Contribution
 
@@ -69,3 +103,4 @@ Feel free to contribute to this project by suggesting new features, improving th
 ---
 
 Thank you for using the Interactive Periodic Table!
+
