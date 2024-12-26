@@ -77,6 +77,7 @@ The following modifications and enhancements were added to the project:
 
 ### Reference Features Integrated:
 
+- Basic structure of periodic table that sort by group and period.
 - Search function that allows users to search by symbol, name, or atomic number.
 - Color-coded periodic table to visually differentiate element categories.
 
@@ -85,7 +86,6 @@ The following modifications and enhancements were added to the project:
 - Developed an interactive, scrollable periodic table.
 - Implemented a popup window to display detailed element properties.
 - Added hover-over tooltips to display quick details about elements.
-- Designed an intuitive search function that updates the table dynamically.
 
 ## Contribution
 
