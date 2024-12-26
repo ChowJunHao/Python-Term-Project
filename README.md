@@ -43,7 +43,7 @@ An interactive periodic table application built using Python and Tkinter. This t
 2. Hover over elements to view their selected properties.
 3. Click on elements to view detailed information in a pop-up window.
 4. Use the search bar to locate specific elements by name, symbol, or atomic number.
-5. Customize the properties displayed in the tooltip by selecting them from the scrollable list on the left panel.
+5. Customize the properties displayed in the tooltip by selecting them from the scrollable list on the right panel.
 
 ## Program Architecture
 
